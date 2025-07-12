@@ -1,0 +1,7 @@
+{
+  "hello": "Hello! I'm a giveaway bot!",
+  "choose_lang": "Choose language:",
+  "lang_set": "Language changed to English",
+  "register": "You are registered! Your number: {number}",
+  "draw": "Winner(s): {winners}"
+}

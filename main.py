@@ -4,7 +4,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 import asyncio
 
 # Токен и ID админа
-BOT_TOKEN = "ВАШ_ТОКЕН"
+BOT_TOKEN = "7713969328:AAFJro-iiBcWhm5gcULXCHACmNSj-cWpBIU"
 ADMIN_ID = 6091849057
 
 bot = Bot(token=BOT_TOKEN)
@@ -12,7 +12,7 @@ storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
 
 # Ссылка на Mini App
-MINI_APP_URL = "https://giveaway-app.up.railway.app "
+MINI_APP_URL = "https://giveaway-app-production.up.railway.app"
 
 # Команда /start
 @dp.message(Command("start"))
